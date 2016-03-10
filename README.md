@@ -17,13 +17,13 @@ or check bintray.com
   https://bintray.com/lineable/maven/library/view  
 
 # Code Sample
-Start Library  
+#### - Start Library  
 <pre>LineableLibrary.start(Context, StateReceiver);</pre>
 
-Stop Library  
+#### - Stop Library  
 <pre>LineableLibrary.stop(Context);</pre>
 
-StateReceiver  
+#### - StateReceiver  
 You can get variable library states with StateReceiver.
 <pre>
 - DEPRECATED : this library is deprecated, and not working. update library.
@@ -40,7 +40,7 @@ You can get variable library states with StateReceiver.
 
 # Environment
 For Bluetooth LE scan, Library support over Android 4.3  
-Also need bluetooth is ON and location permission to get location.
+Also need bluetooth and location permission to get location.
 
 
 

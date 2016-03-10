@@ -6,8 +6,8 @@ Visit our web page : http://lineable.net/
 You can implement Lineable library in your App.  
 
 # Feature
-- Detect active Lineables near your application users.
-- If there are missing Lineables, the notifications will be shown to your user to find the child.
+- Detect active Lineables near the users.
+- If there are missing Lineables nearby, the notification will be shown and the user can help to find the child.
 
 # Download
 Use gradle :  

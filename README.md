@@ -7,7 +7,7 @@ You can implement Lineable library in your App.
 
 # Feature
 - Detect active Lineables near the users.
-- If there are missing Lineables nearby, the notification will be shown and the user can help to find the child.
+- If there are missing Lineables nearby, the data(The picture of a missing child, phone numbers of the parents and etc) will be provided and you can choose whether to notify the user or not. If you choose to notifty the user, the user can contribute to find the child.
 
 # Download
 Use gradle :  

@@ -18,7 +18,7 @@ or check bintray.com
 
 # Code Sample
 Start Library  
-<pre>LineableLibrary.start(Context, mLibraryStateReceiver);</pre>
+<pre>LineableLibrary.start(Context, StateReceiver);</pre>
 
 Stop Library  
 <pre>LineableLibrary.stop(Context);</pre>

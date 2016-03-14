@@ -11,7 +11,7 @@ You can implement Lineable library in your App.
 
 # Download
 Use gradle :  
-<pre>compile 'net.lineable:library:0.1.2'</pre>
+<pre>compile 'net.lineable:library:0.1.4'</pre>
 
 or check bintray.com  
   https://bintray.com/lineable/maven/library/view  

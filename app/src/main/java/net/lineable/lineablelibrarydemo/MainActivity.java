@@ -15,8 +15,8 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import net.lineable.library.LineableLibrary;
+import net.lineable.library.MissingLineable;
 import net.lineable.library.State;
-import net.lineable.library.model.MissingLineable;
 import net.lineable.library.tool.L;
 
 import java.lang.reflect.Type;

@@ -11,14 +11,14 @@ You can implement Lineable library in your App.
 
 # Download
 Use gradle :  
-<pre>compile 'net.lineable:library:0.1.4'</pre>
+<pre>compile 'net.lineable:library:0.1.5'</pre>
 
 or check bintray.com  
   https://bintray.com/lineable/maven/library/view  
 
 # Code Sample
 #### - Start Library  
-<pre>LineableLibrary.start(Context, StateReceiver);</pre>
+<pre>LineableLibrary.start(Context, "API KEY", StateReceiver);</pre>
 
 #### - Stop Library  
 <pre>LineableLibrary.stop(Context);</pre>
@@ -36,7 +36,12 @@ You can get variable library states with StateReceiver.
 - ERR_BT_OFF : Bluetooth switch is off.
 - ERR_LOCATION_NEED_M : if your app does not have location permission (from Android M version)
 - SERVER_RESPONSE : you can show server response message
+- APIKEY_INVALID : api key is wrong.
+- APIKEY_EXPIRED : api key is expired. please issue apikey again.
 </pre>
+
+#### Api key
+Please send mail to support@lineable.net to get api key.
 
 # Environment
 For Bluetooth LE scan, Library support over Android 4.3  

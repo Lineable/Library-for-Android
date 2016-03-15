@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 setText("start button click.");
                 LineableLibrary.mLogPrint = true; // set true if you want to see console log.
-                LineableLibrary.start(MainActivity.this, mLibraryStateReceiver);
+                LineableLibrary.start(MainActivity.this, "INPUT_YOUR_KEY", mLibraryStateReceiver);
+                // to get apikey, please contact with support@lineable.net
             }
         });
 
@@ -86,12 +87,17 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case SERVER_RESPONSE:
                     break;
-
                 case MISSING_LINEABLE:
                     // if missing reported lineable exist.
                     Type listType = new TypeToken<ArrayList<MissingLineable>>() {}.getType();
                     ArrayList<MissingLineable> missingChildArray = new Gson().fromJson(content, listType);
                     processMissingChild(missingChildArray);
+                    break;
+                case APIKEY_INVALID:
+                    // check your apikey
+                    break;
+                case APIKEY_EXPIRED:
+                    // check your apikey
                     break;
             }
         }

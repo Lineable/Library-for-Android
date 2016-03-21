@@ -11,7 +11,7 @@ You can implement Lineable library in your App.
 
 # Download
 Use gradle :  
-<pre>compile 'net.lineable:library:0.1.5'</pre>
+<pre>compile 'net.lineable:library:0.1.6'</pre>
 
 or check bintray.com  
   https://bintray.com/lineable/maven/library/view  
@@ -46,10 +46,3 @@ Please send mail to support@lineable.net to get api key.
 # Environment
 For Bluetooth LE scan, Library support over Android 4.3  
 Also need bluetooth and location permission to get location.
-
-
-
-
-
-
-

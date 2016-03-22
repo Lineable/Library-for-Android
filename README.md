@@ -21,6 +21,7 @@ or check bintray.com
 <pre>LineableLibrary.start(Context, "YOUR_API_KEY", SCAN_INTERVAL_MIN, StateReceiver);</pre>
 1. YOUR_API_KEY : To get api key, please contact with support@lineable.net.
 2. SCAN_INTERVAL_MIN : means sleep duration between BLE scan in minutes. min 1 ~ max 5 minutes.
+
 #### - Stop Library  
 <pre>LineableLibrary.stop(Context);</pre>
 

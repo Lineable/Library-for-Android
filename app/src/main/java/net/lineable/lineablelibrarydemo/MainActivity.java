@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 setText("start button click.");
                 LineableLibrary.mLogPrint = true; // set true if you want to see console log.
-                LineableLibrary.start(MainActivity.this, "INPUT_YOUR_KEY", mLibraryStateReceiver);
+                int scanIntervalMin = 5; // set sleep interval between BLE scan in minutes.
+                LineableLibrary.start(MainActivity.this, "INPUT_YOUR_KEY", scanIntervalMin, mLibraryStateReceiver);
                 // to get apikey, please contact with support@lineable.net
             }
         });

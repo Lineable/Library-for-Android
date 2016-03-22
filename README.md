@@ -11,15 +11,16 @@ You can implement Lineable library in your App.
 
 # Download
 Use gradle :  
-<pre>compile 'net.lineable:library:0.1.6'</pre>
+<pre>compile 'net.lineable:library:0.1.7'</pre>
 
 or check bintray.com  
   https://bintray.com/lineable/maven/library/view  
 
 # Code Sample
 #### - Start Library  
-<pre>LineableLibrary.start(Context, "API KEY", StateReceiver);</pre>
-
+<pre>LineableLibrary.start(Context, "YOUR_API_KEY", SCAN_INTERVAL_MIN, StateReceiver);</pre>
+1. YOUR_API_KEY : To get api key, please contact with support@lineable.net.
+2. SCAN_INTERVAL_MIN : means sleep duration between BLE scan in minutes. min 1 ~ max 5 minutes.
 #### - Stop Library  
 <pre>LineableLibrary.stop(Context);</pre>
 
@@ -39,9 +40,6 @@ You can get variable library states with StateReceiver.
 - APIKEY_INVALID : api key is wrong.
 - APIKEY_EXPIRED : api key is expired. please issue apikey again.
 </pre>
-
-#### Api key
-Please send mail to support@lineable.net to get api key.
 
 # Environment
 For Bluetooth LE scan, Library support over Android 4.3  
